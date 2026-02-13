@@ -20,8 +20,8 @@ PRICELIST_HEADER_ROW_FIXED = 2  # tetap
 # =========================
 # Konstanta header (Mass Update)
 # =========================
-MASS_HEADER_SKU = "SKU Penjual"
-MASS_HEADER_PRICE = "Harga Ritel (Mata Uang Lokal)"
+MASS_HEADER_SKU = "SKU Ref. No.(Optional)"
+MASS_HEADER_PRICE = "Harga diskon"
 
 # Pricelist: header minimal yang kita cari
 PL_HEADER_SKU_CANDIDATES = ["KODEBARANG", "KODE BARANG", "SKU", "SKU NO", "SKU_NO", "KODEBARANG "]
@@ -534,3 +534,4 @@ if process:
             file_name="changes_report.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
+
