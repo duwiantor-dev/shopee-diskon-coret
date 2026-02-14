@@ -378,8 +378,8 @@ def keep_only_changed_rows_in_place(ws, data_start_row: int, changed_row_numbers
 # =========================
 # UI
 # =========================
-st.set_page_config(page_title="Discount Nominate (M4)", layout="wide")
-st.title("Discount Nominate (Harga selalu M4)")
+st.set_page_config(page_title="Discount Nominate (Shopee M4)", layout="wide")
+st.title("Discount Nominate (Shopee M4)")
 
 c1, c2, c3 = st.columns(3)
 with c1:
@@ -534,4 +534,5 @@ if process:
             file_name="changes_report.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
+
 
